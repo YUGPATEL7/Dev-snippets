@@ -1,0 +1,487 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif
+}
+
+body {
+    background-color: black;
+        overflow-x: hidden;
+        resize: both;
+
+}
+
+.main {
+    background-image: url("/Netflix/image.png");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+    
+}
+
+.main .box {
+    height: 700px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn{
+    border: 2px solid #5e5b5b;
+    padding: 8px 20px;
+    /* color: white; */
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    color: rgb(255, 253, 253);
+    z-index: 10;
+    position: relative;
+    border-radius: 5px;
+}
+.b1{
+    margin: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+    .logo{
+        width: 90px;
+    }
+    .first {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+}
+
+.hero-text{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    font-size: 55px;
+    font-weight:700;
+}
+.hero-text1{
+    color: white;
+    position: absolute;
+    text-align: center;
+    text-align: center;
+    top: 60%;
+    left: 39%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-text2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 68%;
+    left: 34%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.addstart {
+    top: 76%;
+    left: 42%;
+    position: absolute;
+
+}
+.addstart input{
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1.5rem 1rem 0.5rem;
+    position: relative;
+    left: -49%;
+    margin-top: -23px;
+    background-color: transparent;
+    color: white;
+
+}
+.addstart button{
+    position: relative;
+    left: 64%;
+    top: -59px;
+    background-color: red;
+    font-size: 1rem;
+    line-height: 2;
+    width: 50%;
+    padding: 1.5rem 1rem 0.5rem;
+    color: white;
+    font-size: larger;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.rem;
+    font-weight: 700;
+}
+.newsection{
+    
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    z-index: 1;
+}
+.Trending{
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 135px;
+    font-size: 23px;
+    font-weight: 600;
+    z-index: 1;
+}
+.scroll-section {
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.scroll-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    width: max-content;
+    animation: scroll 5s linear infinite;
+}
+
+.scroll {
+    height: 40vh;
+    width: 13vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.scroll-section:hover .scroll-container {
+    animation-play-state: paused;
+}
+
+.scroll:hover {
+    transform: scale(1.5) translateY(-20px);
+    background-color: transparent;
+    z-index: 10;
+}
+
+.scroll-section:hover .scroll:not(:hover) {
+    background-color: transparent;
+}
+.scroll img{
+    border-radius: 10px;   
+}
+
+.no {
+        color: #000000;
+        font-size: 100px;
+        z-index: 1;
+        position: relative;
+        right: 220px;
+        font-weight: 700;
+        border: 2px soild white;
+        top: 69px;
+        -webkit-text-stroke: 2px white;
+} 
+
+.section2{
+    height: 70vh;
+    background-color: black;
+
+}
+.more1{
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 135px;
+    font-size: 23px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 80px;
+}
+/* Box Styling */
+.info-box {
+    width: 16vw;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #202040, #120f1f);
+    color: white;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    height: 37vh;
+
+}
+
+/* Title and Text */
+.info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.info-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 20px;
+    color: #ccc;
+    font-weight: 500;
+}
+
+/* Container for Glowing Image */
+.glow-effect {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TV Icon with Glow */
+.glow-effect svg {
+    height: 80px;
+    /* width: 50px; */
+    filter: drop-shadow(0px 0px 10px rgba(255, 0, 255, 0.7)); /* Purple Glow */
+}
+
+/* Animated Glow Effect */
+.glow-effect::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, rgba(255, 0, 255, 0.6) 10%, rgba(0, 0, 0, 0) 70%);
+    border-radius: 50%;
+    filter: blur(10px);
+    z-index: -1;
+    animation: pulse 2s infinite alternate;
+}
+
+/* Glow Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1.3);
+        opacity: 0.4;
+    }
+}
+.section3{
+    height: 98vh;
+    background-color: #000000;
+
+}
+.title{
+    position: relative;
+    top: 0px;
+    color: white;
+    left: 135px;
+    font-size: 23px;
+    font-weight: 600;
+    z-index: 1;
+}
+.feedboxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13px;
+}
+.qus{
+    gap: 10px;
+    height: 12vh;
+    background-color: #333131;
+    width: 81vw;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+}
+.qus p{
+    
+    font-size: 3.5rem;
+    padding-right:20px ;
+} 
+.qus:hover{
+    background-color: #7c79797e;
+}
+
+.section4{
+    height: 23vh;
+}
+.textlong{
+    text-align: center;
+    color: white;
+}
+.add{
+    position: relative;
+    left: 25%;
+    top: 6%;
+}
+.addha{
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 40%;
+    padding: 1.5rem 1rem 0.5rem;
+    position: relative;
+    /* left: -49%; */
+    /* margin-top: -23px; */
+    background-color: transparent;
+    color: white;
+
+}
+.get1{
+bottom: 6px;
+    background-color: red;
+    line-height: 1.6;
+    width: 15%;
+    padding: 1.5rem 1rem 0.5rem;
+    color: white;
+    font-size: larger;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+}
+.ftitle{
+    position: relative;
+    top: 0px;
+    color: rgba(255, 255, 255, 0.596);
+    left: 123px;
+    font-size: 16px;
+    /* font-weight: 600; */
+    z-index: 1;
+}
+
+.footerstat{
+    height: 60vh;
+    background-color: #000000;
+}
+.froflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.frist{
+    color: #7c7979;
+    padding: 50px;
+}
+.frist p{
+    padding: 10px;
+    font-size: 15px;
+}
+.language-selector select {
+    background-color: transparent;  /* Transparent background */
+    color: #7c7979;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border: 1px solid #7c7979;
+    border-radius: 5px;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    width: 120px;  /* Set a fixed width */
+    text-align: center;
+}
+
+/* Dropdown Arrow */
+.language-selector {
+    position: relative;
+    display: inline-block;
+    width: 120px; /* Set width for container */
+    left: 8%;
+}
+
+.language-selector::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #7c7979;
+    pointer-events: none;
+}
+
+/* Style Dropdown Options */
+.language-selector select option {
+    background: black;  /* Change option background to black */
+    color: #7c7979;
+    font-size: 1rem;
+}
+.lastword{
+    color: #7c7979;
+    position: relative;
+    top: 10%;
+    left: 8%;
+    font-size: 14px;
+}
+
+.w:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}

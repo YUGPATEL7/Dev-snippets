@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 20px;
+}
+
+/* Input & Button Styling */
+input[type="text"] {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b00610;
+}
+
+/* Playlist Section */
+.playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+/* Individual Card */
+.frist {
+    display: flex;
+    gap: 20px;
+    background-color: #1f1f1f;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.frist:hover {
+    transform: translateY(-4px);
+}
+
+/* Thumbnail Image */
+.img1 img {
+    height: 120px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Content */
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.details-container {
+    margin-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Meta Info */
+.cvt {
+    display: flex;
+    gap: 16px;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.input-section {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-section label {
+    font-size: 16px;
+    margin: 5px 0;
+    display: block;
+    color: #ccc;
+}
+
+.input-section input {
+    width: 100%;
+    margin-bottom: 15px;
+}
