@@ -15,7 +15,9 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(96, 189, 246);
+   background: #020024;
+background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);   
+    
     
 }
 #cursor{
@@ -31,4 +33,5 @@ html,body{
 }
 h1{
     font-size: 200px;
+
 }
