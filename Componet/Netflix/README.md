@@ -22,8 +22,7 @@ This project is a simple landing page inspired by Netflix. It was created to hel
 
 ## Screenshots
 
-![Uploading image.png…]()
-
+<img width="1893" height="866" alt="image" src="https://github.com/user-attachments/assets/398a7a82-4116-4925-a56a-fa6f67d190c5" />
 <img width="1892" height="801" alt="image" src="https://github.com/user-attachments/assets/7b843630-db4e-47af-9d29-d8d5b8b0df31" />
 <img width="1891" height="856" alt="image" src="https://github.com/user-attachments/assets/ef86f22b-81b7-4877-a738-a9234975311f" />
 <img width="1896" height="830" alt="image" src="https://github.com/user-attachments/assets/1e9cf202-692e-442b-a11d-4f2a5023e1b8" />
@@ -39,5 +38,6 @@ This landing page was developed as a hands-on exercise to improve my skills in w
 ---
 
 Feel free to use or modify this project for your own learning purposes!
+
 
 
