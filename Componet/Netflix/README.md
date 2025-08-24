@@ -1,2 +1,3 @@
 # Netflix-clone
-This is a clone of front page of Netflixe 
+This is just landing page help me to understand styleing 
+
