@@ -14,7 +14,7 @@ function add() {
     let imgUrl = document.getElementById("inp").value;
     let titleText = document.getElementById("inp1").value;
     let channelName = document.getElementById("inp2").value;
-    let viewCount = document.getElementById("inp3").value;
+
     let playlist = document.querySelector(".playlist");
 
     let uploadTime = new Date();
@@ -47,10 +47,7 @@ function add() {
 
         let views = document.createElement("span");
         views.className = "views";
-        if (viewCount <= 1000) views.innerText = `${viewCount}`;
-        else if (viewCount <= 10000) views.innerText = `${(viewCount / 1000).toFixed(1)}k`;
-        else views.innerText = `${(viewCount / 1000000).toFixed(1)}M`;
-
+        views.innerText = `2M views`;
         let time = document.createElement("span");
         time.className = "time";
         time.innerText = formatTimeAgo(uploadTime);
