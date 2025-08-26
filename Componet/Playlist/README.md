@@ -14,6 +14,8 @@ A customizable playlist component for displaying a list of video tutorials or me
 
 ## Demo
 
-![Playlist Component Screenshot](./images/screenshot.png)
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/6f4777b5-049d-42c0-bb51-b38b1234bcd9" />
+
 
 ---
+
