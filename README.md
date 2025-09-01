@@ -1,4 +1,4 @@
-# Welcome to Dev Snippet 🎉
+# Dev Snippet  
 
 
 > *A collection of experiments, small builds, and the first steps in my coding journey.*  
